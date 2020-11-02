@@ -1,0 +1,146 @@
+// Colors
+
+$colorBlue1: #272D4F;
+$colorBlue2: #686C84;
+$colorBlue3: #A8ABB8;
+$colorGold: #CBAE6E;
+$colorGold2: #F5EDDE;
+$colorGreen: #BAC7BB;
+$colorGreenContact: rgba(186, 199, 187, 0.5);
+$colorZhelpter: #FF6C00;
+$colorOfferBackground: #E2EAE3;
+$colorOfferBackground2: #BAC7BB;
+$colorWhite: #FFFFFF;
+$colorBlack: #000000;
+$dotBorder: #D4D5DC;
+$formSubmitHover: #C3C4CB;
+$teacherBackground: #F8F4E9;
+$colorBorderEmail: #D4D5DC;
+$colorDisabledButton: #d4d5dd;
+
+
+//Font size basic
+
+$sizeFontBase: 10;
+
+//Size breakpoints
+$sizeBreakpointMobile: 0px;
+$sizeBreakpointTablet: 519px;
+$sizeBreakpointDesktop: 980px;
+$sizeBreakpointWide: 1401px;
+
+// Color define example
+$verticalSpaceGenoa: (
+  mobile: 50,
+  tablet: 50,
+  desktop: 50,
+  wide: 50
+);
+
+$verticalSpaceCyan: (
+  mobile: 40,
+  tablet: 40,
+  desktop: 40,
+  wide: 40
+);
+
+$verticalSpaceChrome: (
+  mobile: 20,
+  tablet: 20,
+  desktop: 20,
+  wide: 20
+);
+
+$verticalSpaceBarrel: (
+  mobile: 15,
+  tablet: 15,
+  desktop: 15,
+  wide: 15
+);
+
+$verticalSpaceCobalt: (
+  mobile: 30,
+  tablet: 30,
+  desktop: 30,
+  wide: 30
+);
+
+$verticalSpaceHusk: (
+  mobile: 60,
+  tablet: 60,
+  desktop: 60,
+  wide: 60
+);
+
+$verticalSpaceKhaki: (
+  mobile: 90,
+  tablet: 90,
+  desktop: 90,
+  wide: 90
+);
+
+$verticalSpaceLila: (
+  mobile: 100,
+  tablet: 100,
+  desktop: 100,
+  wide: 100
+);
+
+$verticalSpaceIris: (
+  mobile: 70,
+  tablet: 70,
+  desktop: 70,
+  wide: 70
+);
+
+$verticalSpaceApricot: (
+  mobile: 5,
+  tablet: 5,
+  desktop: 5,
+  wide: 5
+);
+
+$verticalSpaceAuburn: (
+  mobile: 10,
+  tablet: 10,
+  desktop: 10,
+  wide: 10
+);
+
+$verticalSpaceCider: (
+  mobile: 25,
+  tablet: 25,
+  desktop: 25,
+  wide: 25
+);
+
+$verticalSpaceJasper: (
+  mobile: 80,
+  tablet: 80,
+  desktop: 80,
+  wide: 80
+);
+
+$verticalSpaceMelon: (
+  mobile: 140,
+  tablet: 140,
+  desktop: 140,
+  wide: 140
+);
+
+$verticalSpaces: (
+  genoa: $verticalSpaceGenoa,
+  cyan: $verticalSpaceCyan,
+  chrome: $verticalSpaceChrome,
+  barrel: $verticalSpaceBarrel,
+  cobalt: $verticalSpaceCobalt,
+  husk: $verticalSpaceHusk,
+  khaki: $verticalSpaceKhaki,
+  lila: $verticalSpaceLila,
+  iris: $verticalSpaceIris,
+  apricot: $verticalSpaceApricot,
+  auburn: $verticalSpaceAuburn,
+  cider: $verticalSpaceCider,
+  jasper: $verticalSpaceJasper,
+  melon: $verticalSpaceMelon
+);

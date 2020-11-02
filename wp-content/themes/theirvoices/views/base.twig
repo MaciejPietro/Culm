@@ -1,0 +1,19 @@
+<html>
+    <head>
+        {{ fn('wp_head') }}
+        <meta charset="UTF-8" />
+        <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+
+        <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
+        <title>{{site.name}}</title>
+        
+    </head>
+    <body>
+        {% include 'header.twig' %}
+        {% block head %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block footer %}{% endblock %}
+        {% include 'footer.twig' %}
+        {{ fn('wp_footer') }}
+    </body>
+</html>

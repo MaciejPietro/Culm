@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="video-badge-dt" transform="translate(-61.000000, -61.000000)">
+            <g id="play" transform="translate(61.000000, 61.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+                <g id="icon/play" transform="translate(31.000000, 28.391772)" fill="#272D4F">
+                    <path d="M3.35771372,0.307027936 L18.9682487,9.28699465 C19.9960533,9.8782397 20.3085034,11.1244166 19.6661255,12.0704087 C19.4895037,12.3305092 19.2508436,12.5501721 18.9682487,12.712735 L3.35771372,21.6927017 C2.32990909,22.2839467 0.975958636,21.9963674 0.333580741,21.0503754 C0.115587608,20.7293497 -4.54747351e-13,20.3584003 -4.54747351e-13,19.9798315 L-4.54747351e-13,2.01989809 C-4.54747351e-13,0.904339181 0.982549464,0 2.19458565,0 C2.60589427,0 3.00892471,0.106386911 3.35771372,0.307027936 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

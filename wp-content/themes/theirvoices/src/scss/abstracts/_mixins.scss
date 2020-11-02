@@ -1,0 +1,134 @@
+// Vertical spacing
+@mixin responsiveVerticalSpacing(
+  $color: false,
+  $cssAttribute: "margin-top",
+  $multiply: 1
+) {
+  @if (map-has-key($verticalSpaces, $color)) {
+    @if (is-map(map-get($verticalSpaces, $color))) {
+      #{$cssAttribute}: pxToRem(
+          map-get(map-get($verticalSpaces, $color), mobile)
+        ) *
+        $multiply;
+
+      @include mq($from: tablet) {
+        #{$cssAttribute}: pxToRem(
+            map-get(map-get($verticalSpaces, $color), tablet)
+          ) * $multiply;
+      }
+
+      @include mq($from: desktop) {
+        #{$cssAttribute}: pxToRem(
+            map-get(map-get($verticalSpaces, $color), desktop)
+          ) * $multiply;
+      }
+
+      @include mq($from: wide) {
+        #{$cssAttribute}: pxToRem(
+            map-get(map-get($verticalSpaces, $color), wide)
+          ) * $multiply;
+      }
+    } @else {
+      #{$cssAttribute}: pxToRem(map-get($verticalSpaces, $color)) * $multiply;
+    }
+  }
+}
+
+// Font family
+
+@mixin fontH1 {
+  @include fontRoxboroughcfExtrabold;
+  font-size: calc(27px + (60 - 27) * ((100vw - 475px) / (1920 - 475)));
+  line-height: calc(35/27);
+  font-weight: normal;
+	font-style: normal;
+
+  @include mq($from: tablet) {
+    line-height: calc(43/33)
+  }
+
+  @include mq($from: desktop) {
+    line-height: calc(52/40);
+  }
+
+  @include mq($from: wide) {
+    line-height: calc(65/50)
+  }
+
+  & > em {
+    font-style: normal;
+    text-decoration: underline;
+  }
+}
+
+@mixin fontH2 {
+  @include fontRoxboroughcfExtrabold;
+  font-size: 2.4rem;
+  line-height: calc(31 / 24);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin fontH3 {
+  @include fontAcherusgrotesqueBold;
+  font-size: 2.4rem;
+  line-height: calc(26 / 24);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin copySmall {
+  @include fontAcherusgrotesqueRegular;
+  font-size: 1.3rem;
+  line-height: calc(22/13);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin copySmallBold {
+  @include fontAcherusgrotesqueMedium;
+  font-size: 1.3rem;
+  line-height: calc(22/13);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin copyRegular {
+  @include fontAcherusgrotesqueRegular;
+  font-size: 1.6rem;
+  line-height: calc(26 / 14);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin copyBold {
+  @include fontAcherusgrotesqueBold;
+  font-size: 1.6rem;
+  line-height: calc(26/16);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin fontNavi {
+  @include fontAcherusgrotesqueBold;
+  font-size: 1.4rem;
+  line-height: calc(18 / 14);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin fontCategory {
+  @include fontAcherusgrotesqueBold;
+  font-size: 1.1rem;
+  line-height: calc(12/11);
+  font-weight: normal;
+	font-style: normal;
+}
+
+@mixin fontNewsTicker {
+  @include fontAcherusgrotesqueMedium;
+  font-size: 1.2rem;
+  line-height: calc(12 / 12);
+  font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,31 @@
+<section class="home">
+    <div class="home__content">
+        <h1 class="home__content__title">{{module.title}}</h1>
+        <div class="home__content__text">
+            {{module.description}}
+        </div>
+        <button class="home__content__button"><a href="{{ user_link.free_lesson }}"><p>BOOK A FREE LESSON<p></a></button>
+    </div>
+   
+    <div class="home__images">
+        {# VIDEO #}
+        <video class="home__images__video">
+            <source src="{{module.video.url}}" type="video/mp4">
+        </video>
+
+        {# IMAGES #}
+        <span class="home__images__image home__images__image__1">
+            <span class="home__images__image__x"></span>
+           <span class="home__images__image__img" style='background-image: url({{ module.circle_images[0].url }})'/>
+            {# src="{{ module.circle_images[0].url }}" #}
+        </span>
+
+
+        <span class="home__images__badge"></span>  
+        <span class="home__images__cover">
+            <span class="home__images__cover__play"></span>
+        </span>
+        <span class="home__images__overlay"></span>
+
+    </div>
+</section>
