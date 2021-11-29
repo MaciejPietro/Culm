@@ -1,4 +1,6 @@
-# nativated
+# Culm
+
+Simple theme starter for wordpress, build with Twig & Timber
 
 ## Project setup
 ```
