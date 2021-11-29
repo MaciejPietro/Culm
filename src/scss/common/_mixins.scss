@@ -1,0 +1,50 @@
+
+@mixin cols($num, $gapDivider: "1") {
+  display: grid;
+  grid-template-columns: repeat($num, minmax(0, 1fr));
+  row-gap: 0 ;
+  column-gap: calc(1.5rem / #{$gapDivider});
+
+  @include screen(tablet) {
+    column-gap: calc(2rem / #{$gapDivider});
+  }
+
+  @include screen(desktop) {
+    column-gap: calc(3rem / #{$gapDivider});
+  }
+
+  @include screen(large) {
+    column-gap: calc(4rem / #{$gapDivider});
+  }
+}
+
+@mixin col-start-end($start, $end) {
+  grid-column-start: $start;
+  grid-column-end: $end;
+}
+
+@mixin screen($breakpoint) {
+  @if $breakpoint==mobile {
+      @media only screen and (min-width: 440px) {
+          @content;
+      }
+  }
+
+  @if $breakpoint==tablet {
+      @media only screen and (min-width: 676px) {
+          @content;
+      }
+  }
+
+  @if $breakpoint==desktop {
+      @media only screen and (min-width: 980px) {
+      @content;
+      }
+  }
+
+  @if $breakpoint==large {
+      @media only screen and (min-width: 1320px) {
+      @content;
+      }
+  }
+}

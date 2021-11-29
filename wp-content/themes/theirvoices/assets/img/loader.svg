@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Path</title>
-    <g id="Nativated" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="nativated-form" transform="translate(-934.000000, -1490.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <path d="M944,1490 C949.522847,1490 954,1494.47715 954,1500 C954,1505.52285 949.522847,1510 944,1510 C938.477153,1510 934,1505.52285 934,1500 C934,1499.44772 934.447715,1499 935,1499 C935.552285,1499 936,1499.44772 936,1500 C936,1504.41828 939.581722,1508 944,1508 C948.418278,1508 952,1504.41828 952,1500 C952,1495.58172 948.418278,1492 944,1492 C943.447715,1492 943,1491.55228 943,1491 C943,1490.44772 943.447715,1490 944,1490 Z" id="Path"></path>
-        </g>
-    </g>
-</svg>
